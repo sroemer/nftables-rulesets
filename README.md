@@ -6,9 +6,10 @@ and reloading it on startup. A ruleset then can be loaded with `nft -f <file>`
 
 On Gentoo and Artix linux with OpenRC run:
 
-```rc-update add nftables default
-rc-service nftables start
-nft -f nftables.conf
+```
+rc-update add nftables default  
+rc-service nftables start  
+nft -f nftables.conf  
 ```
 
 ## rulesets in this repository
