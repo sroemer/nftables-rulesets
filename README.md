@@ -2,8 +2,8 @@
 
 ## rulesets in this repository
 
-basic: simple ruleset which only allows incoming ssh connections on port 22
-
+basic : simple ruleset which only allows incoming ssh connections on port 22
+server: my server ruleset with additional services (some on non-standard ports)
 
 
 ## using a ruleset
